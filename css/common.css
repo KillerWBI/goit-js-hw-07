@@ -79,7 +79,7 @@ input {
   gap: 8px;
 }
 button {
-  width: 86px;
+  width: auto;
 font-family: 'Montserrat';
   font-weight: 500;
   font-size: 16px;
@@ -92,6 +92,7 @@ font-family: 'Montserrat';
   margin-top: 8px;
 
 }
+
 button:hover {
   background-color: rgba(108, 140, 255, 1);
 }
@@ -100,5 +101,6 @@ label {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-
+display: flex;
+  flex-direction: column;
 }
